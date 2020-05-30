@@ -23,7 +23,7 @@ const DIB = [
 const WIDTH = 1280;
 const HEIGHT = 760;
 function _genBitMap(){
-  const color = [0x4c,0x97,0xb9];
+  const color = [0x88,0xa3,0x60];
   const buff = Buffer.alloc(_fileSize(WIDTH,HEIGHT));
   buff.fill(Buffer.from(header),0,14);
   buff.fill(Buffer.from(DIB),14,54);
