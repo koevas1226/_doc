@@ -1,2 +1,2 @@
-# blog
-Blog template with Node.js
+# doc
+  记录学习笔记
